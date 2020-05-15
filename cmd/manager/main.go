@@ -22,7 +22,6 @@ import (
 	"github.com/kubeflow/xgboost-operator/pkg/apis"
 	"github.com/kubeflow/xgboost-operator/pkg/controller"
 	"github.com/kubeflow/xgboost-operator/pkg/webhook"
-	_ "k8s.io/client-go/plugin/pkg/client/auth/gcp"
 	"sigs.k8s.io/controller-runtime/pkg/client/config"
 	"sigs.k8s.io/controller-runtime/pkg/manager"
 	logf "sigs.k8s.io/controller-runtime/pkg/runtime/log"
